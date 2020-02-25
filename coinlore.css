@@ -1,0 +1,19 @@
+*{
+	margin:0;
+box-sizing:border-box;
+
+}
+
+
+.super-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	background: gold;
+	
+}
+
+.global{
+	background: black;
+	grid-column: 
+}

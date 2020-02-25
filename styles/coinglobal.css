@@ -1,0 +1,18 @@
+.global {
+  grid-column: 4;
+  padding: 5%; }
+
+.global-grid {
+  background: #262d47;
+  padding: 3%;
+  margin: 4%; }
+
+.global-list-item {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 2%; }
+
+/*# sourceMappingURL=coinglobal.css.map */

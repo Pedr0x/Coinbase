@@ -1,0 +1,114 @@
+
+@import "normalize";
+@import "reset";
+@import "variables";
+
+@import "global";
+@import "dropdown";
+@import "coins";
+
+@import "coinglobal";
+@import "portfolio";
+*{
+	margin:0;
+box-sizing:border-box;
+
+}
+
+
+.super-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	background: #1b2235;
+	height: 100vh;
+color: white;
+min-height: 721px;
+}
+
+.coins{
+	grid-column: 1/4;
+}
+
+.top{
+		
+	
+grid-row: 2/5;
+    grid-column: 1/2;
+}
+
+.top-list{
+	
+
+	margin: 6%;
+	padding: 2%;
+	background: #262d47;
+	border-radius: 5px;
+	
+	
+	
+	.list-item {
+	display: flex;
+//	flex-direction: revert;
+	justify-content: space-around;
+	padding: 3%;
+	/* background: gold; */
+	margin: 4%;
+		text-align: center;
+}
+}
+
+.list-item-area{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.list-item-sub {
+	font-size: 12px;
+	opacity: .5;
+	line-height: 1.85;
+}
+
+	//.global-list-item>h3.global-item-num+h3.global-item-num
+
+
+
+
+
+
+
+
+//dropdown xxxxxxxxx
+
+.dropdown-tool{
+	opacity: 0;
+	pointer-events: none;
+		transition: 0.2s;
+transform: translateY(-20px)
+}
+.dropdown-divider {
+	width: 100%;
+	height: 1px;
+	background: #e6e6e6;
+}
+
+.dropdown-tool_active{
+	opacity: 1;
+	pointer-events: all;
+	transform: translateY(20px);
+border-radius: 5px;
+	transition: 0.2s ease-out;
+		background:
+white;
+
+padding: 5%;
+
+margin: 5%;
+}
+
+.dropdown-item {
+	color: gray;
+	padding: 2%;
+	margin: 4%;
+}

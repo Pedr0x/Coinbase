@@ -1,0 +1,38 @@
+.coins{
+	//display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+grid-template-rows: 1fr 1fr 1fr;
+}
+
+.coins-searchbar-contaner {
+	grid-column: 1/4;
+		padding: 2% 5%;
+	background: gold;
+	
+}
+.coins-searchbar {
+	width: 100%;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: inset 1px 0px 1px #9f9f9f;
+	padding: 0.5%;
+}
+.coin-data-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+}
+.coin-data-item {
+	background: white;
+	color: gray;
+	padding: 12% 5%;
+	margin: 5%;
+	text-align: center;
+	border-radius: 3px;
+	
+	
+	
+	label{
+		font-display: 12px;
+	}
+}
