@@ -270,27 +270,59 @@ $collection-line-height: 1.5rem !default;
 
 $progress-bar-color: $secondary-color !default;
 */
-.global {
-  grid-column: 5;
-  padding: 5%;
-  color: #7d7d7d;
-  margin: 5%;
+.coins {
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #fdf8fc;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 5%; }
+
+.coins-searchbar-container {
+  grid-column: 1/4;
+  padding: 2% 5%; }
+
+.coins-searchbar {
+  width: 100%;
   border-radius: 5px;
-  background: #ddcfdabf;
-  color: #fdf8fc; }
+  border: 0;
+  box-shadow: inset 1px 0px 1px #9f9f9f;
+  padding: 0.5%; }
 
-.global-grid {
-  padding: 3%;
-  margin: 4%; }
+.coin-data-container-super {
+  display: grid; }
 
-.global-list-item {
+.coin-data-container-main {
+  grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+  display: grid; }
+  .coin-data-container-main .coin-data-item {
+    background: #fdf8fc;
+    color: gray;
+    padding: 5%;
+    margin: 4% 15%;
+    text-align: center;
+    border-radius: 3px;
+    background: white;
+    border-radius: 5px; }
+    .coin-data-container-main .coin-data-item label {
+      font-size: 0.8em;
+      color: #1565c0;
+      font-weight: 600; }
+
+.coin-data-title {
+  font-size: 1.563em;
+  font-size: 1.953em;
+  margin: 3%; }
+
+.coin-data-container-secondary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(33%, 1fr)); }
+
+.coin-data-item_sec {
+  margin: 3%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 2%;
-  padding: 2%;
-  font-size: 0.8em; }
-  .global-list-item .item-title {
-    font-weight: 600; }
+  justify-content: center;
+  text-align: center;
+  color: #7d7d7d; }
+  .coin-data-item_sec * {
+    margin: 2%; }
 
-/*# sourceMappingURL=coinglobal.css.map */
+/*# sourceMappingURL=coins.css.map */

@@ -1,14 +1,17 @@
+@import "variables";
+
 .coins{
 	//display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-
+background: $white;
 grid-template-rows: 1fr 1fr 1fr;
+padding: 5%;
+	
 }
 
-.coins-searchbar-contaner {
+.coins-searchbar-container {
 	grid-column: 1/4;
 		padding: 2% 5%;
-	background: gold;
 	
 }
 .coins-searchbar {
@@ -18,21 +21,58 @@ grid-template-rows: 1fr 1fr 1fr;
 	box-shadow: inset 1px 0px 1px #9f9f9f;
 	padding: 0.5%;
 }
-.coin-data-container {
+.coin-data-container-super {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 }
-.coin-data-item {
-	background: white;
+.coin-data-container-main{
+		grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+display: grid;
+	
+	.coin-data-item {
+	background: $white;
 	color: gray;
-	padding: 12% 5%;
-	margin: 5%;
+	padding:  5%;
+	margin: 4% 15%;
 	text-align: center;
 	border-radius: 3px;
+		background:
+white;
+border-radius: 5px;
 	
 	
 	
 	label{
-		font-display: 12px;
+font-size: $Small;
+		color: $blue;
+		font-weight: 600;
 	}
 }
+}
+
+.coin-data-title{
+	font-size: $Big-Small;
+	font-size: $Big;
+	margin: 3%;
+	
+}
+
+.coin-data-container-secondary{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+	
+}
+.coin-data-item_sec{
+	 margin: 3%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: $dark-text;
+	
+	*{
+	margin: 2%;
+		
+	}
+	}
+
+
+

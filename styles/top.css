@@ -270,27 +270,34 @@ $collection-line-height: 1.5rem !default;
 
 $progress-bar-color: $secondary-color !default;
 */
-.global {
-  grid-column: 5;
-  padding: 5%;
-  color: #7d7d7d;
-  margin: 5%;
-  border-radius: 5px;
-  background: #ddcfdabf;
-  color: #fdf8fc; }
-
-.global-grid {
-  padding: 3%;
-  margin: 4%; }
-
-.global-list-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 2%;
+.top-list {
+  background: #fdf8fc;
+  margin: 6%;
   padding: 2%;
-  font-size: 0.8em; }
-  .global-list-item .item-title {
-    font-weight: 600; }
+  border-radius: 5px; }
+  .top-list .list-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    /* background: gold; */
+    margin: 2%;
+    text-align: center;
+    font-size: 1em; }
 
-/*# sourceMappingURL=coinglobal.css.map */
+.list-item-legends {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  font-size: 0.8em; }
+
+.list-item-area {
+  display: flex;
+  flex-direction: column; }
+
+.list-item-sub {
+  font-size: 12px;
+  opacity: .5;
+  line-height: 1.85; }
+
+/*# sourceMappingURL=top.css.map */

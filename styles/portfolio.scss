@@ -1,10 +1,10 @@
+@import "variables";
+
 .portfolio{
 	display: grid;
 	grid-template-columns: 1fr 4fr;
 	grid-template-rows: 1fr;
-	grid-column: 2/5;
-	background: #646464;
-	grid-row: 2/6;
+	
 }
 .scrolla{
 	height: 80px;
@@ -18,8 +18,10 @@
 
 .portfolio-add{
 	padding: 5%;
-	background: gold;
 	overflow: hidden;
+	background: $pink;
+	background: $green;
+	
 }
 
 .portfolio-buy-input {
@@ -31,6 +33,7 @@
 	padding: 2% 0;
 	font-size: 16px;
 }
+
 
 .portfolio-form {
 	margin: 0;
@@ -61,10 +64,15 @@
 
 
 //list 
+.portfolio-list{
+}
 .portfolio-list-item-legend{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	
+	padding: 2%;
+	background: $blue;
+	color: $white-text;
+	background: $gold;
 }
 
 
@@ -73,6 +81,7 @@
 	padding: 2% 0;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 .portfolio-list-item {
 	display: flex;
 	flex-direction: row;
@@ -83,6 +92,10 @@
 	
 }
 
+/*.portfolio-list-super {
+	background: $white;
+	margin: 3%;
+}*/
 
 
 

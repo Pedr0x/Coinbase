@@ -1,0 +1,20 @@
+{
+  "name": "crypto-dashboard",
+  "version": "1.0.0",
+  "description": "cryptocurrency dashboard with coinlore api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+//	  start:"server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedr0x/Coinbase.git"
+  },
+  "author": "pedr0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pedr0x/Coinbase/issues"
+  },
+  "homepage": "https://github.com/Pedr0x/Coinbase#readme"
+}

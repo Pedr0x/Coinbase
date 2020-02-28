@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACA,OAAO;EACN,WAAW,EAAE,CAAC;EACd,OAAO,EAAE,EAAE;;AASZ,YAAY;EACV,UAAU,EAAE,OAAO;EACpB,OAAO,EAAE,EAAE;EAEZ,MAAM,EAAE,EAAE;;AAGV,iBAAkB;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,EAAE;EACV,OAAO,EAAE,EAAE",
-"sources": ["coinglobal.scss"],
+"mappings": "AAqEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EA2GE;AAUF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAwDE;AACF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAsEE;AAcF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAmCE;ACxWF,OAAO;EACN,WAAW,EAAE,CAAC;EACd,OAAO,EAAE,EAAE;EACX,KAAK,EDgCK,OAAO;EC/BjB,MAAM,EAAE,EAAE;EACV,aAAa,EAAE,GAAG;EAClB,UAAU,EDkCC,SAAS;ECjCpB,KAAK,ED+BC,OAAO;;ACzBd,YAAY;EACX,OAAO,EAAE,EAAE;EAEZ,MAAM,EAAE,EAAE;;AAGV,iBAAkB;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,EAAE;EACV,OAAO,EAAE,EAAE;EACX,SAAS,EDsBD,KAAK;ECnBb,6BAAW;IACV,WAAW,EAAE,GAAG",
+"sources": ["variables.scss","coinglobal.scss"],
 "names": [],
 "file": "coinglobal.css"
 }

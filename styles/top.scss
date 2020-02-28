@@ -1,0 +1,44 @@
+
+@import "variables";
+
+
+.top-list{
+	background: $white;
+
+	margin: 6%;
+	padding: 2%;
+	border-radius: 5px;
+	
+	
+	
+	.list-item {
+	display: flex;
+//	flex-direction: revert;
+	justify-content: space-around;
+	padding: 2%;
+	/* background: gold; */
+	margin: 2%;
+		text-align: center;
+		font-size: $Medium;
+}
+}
+
+.list-item-legends{
+	display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+justify-items: center;	
+	font-size: $Small;
+}
+
+.list-item-area{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.list-item-sub {
+	font-size: 12px;
+	opacity: .5;
+	line-height: 1.85;
+}
