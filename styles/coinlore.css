@@ -2959,4 +2959,24 @@ $progress-bar-color: $secondary-color !default;
   align-items: start;
   justify-content: center; }
 
+@media only screen and (max-width: 800px) {
+  .super-container {
+    grid-template-columns: 1fr; }
+
+  .sidebar {
+    flex-direction: column;
+    grid-row: 1; }
+
+  .coins {
+    grid-column: 1; }
+
+  .global {
+    grid-column: 1; }
+
+  .top {
+    grid-column: 1; }
+
+  .portfolio-super {
+    grid-column: 1; } }
+
 /*# sourceMappingURL=coinlore.css.map */
